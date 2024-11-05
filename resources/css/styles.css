@@ -1,0 +1,61 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* Header */
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007BFF;
+    padding: 20px 30px;
+    border-bottom: 1px solid #000000;
+}
+
+.logo img {
+    height: 100px;
+    width: 300px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+.signup a  {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FF5733;
+}
+
+.signup a:hover {
+    color: #FFFFFF;
+    background-color: #ff5833b0;
+    cursor: pointer;
+}
+
+/* Main */
+main {
+    background-image: url(../images/football-field-background.jpg);
+}
