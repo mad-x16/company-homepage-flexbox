@@ -12,4 +12,4 @@ The scheme color suggested were main (Electric Blue #007BFF / Sunset Orange #FF5
 Note that this exercise is intended to create a homepage layout. Other site pages may be included at a later time or...never (In case I forgot or continue to create a complete website).
 
 ## SUB-DESCRIPTION
-I just want to test out commit changes in local machine and upload to online repo.
+I just want to test out commit changes in local machine and upload to online github repository
