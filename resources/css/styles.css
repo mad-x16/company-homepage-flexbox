@@ -6,9 +6,40 @@
 }
 
 /* Universal */
+
+@font-face {
+    font-family: "Roboto Slab Bold";
+    src: url(../fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat Alternates Italic";
+    src: url(../fonts/Montserrat_Alternates/MontserratAlternates-BlackItalic.ttf);
+}
+
+html {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 3.125rem;
+    font-family: "Roboto Slab Bold", sans-serif;
+}
+
+h3 {
+    font-size: 2.15rem;
+    font-family: "Monterrat Alternates Italic", sans-serif;
+    font-style: italic;
+}
+
 a {
     color: #000000;
     text-decoration: none;
+}
+
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex-container {
@@ -19,7 +50,6 @@ a {
 header {
     height: 100px;
     width: 100%;
-    position: fixed;
     align-items: center;
     justify-content: space-between;
     background-color: #007BFF;
@@ -56,6 +86,33 @@ nav a:hover {
 }
 
 /* Main */
-main {
+.main-content {
+    height: 43.5rem;
     background-image: url(../images/football-field-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: #000000;
+    padding: 0.5rem 2.5rem 5rem;
+    position: relative;
+    left: 10%;
+}
+
+.title h2, .title h3, .title span, .title a{
+    color:#FFFFFF;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.title a {
+    background-color: #FF5733;
+    border: 10px solid #FFFFFF;
+    border-radius: 10px;
 }
